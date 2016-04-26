@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="LoginJavaFX.jnlp">
+  <information>
+    <title>LoginJavaFX</title>
+    <vendor>oahd</vendor>
+    <description>login oahd</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="LoginJavaFX.jar" size="6988" download="eager" />
+    <jar href="libs\javax.json-1.0.jar" size="78579" download="eager" />
+    <jar href="libs\javax.json-api-1.0.jar" size="19754" download="eager" />
+  </resources>
+  <application-desc main-class="com.oahd.view.Login"  name="login oahd" >
+  </application-desc>
+  <update check="background"/>
+</jnlp>
